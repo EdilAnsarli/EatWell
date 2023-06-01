@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 88%;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+}
+header .navigation {
+  display: flex;
+  justify-content: space-between;
+  height: 96.8px;
+  align-items: center;
+}
+header .navigation .logo a {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 1.25rem;
+  line-height: inherit;
+}
+header .navigation nav ul {
+  display: flex;
+}
+header .navigation nav ul li {
+  margin-left: 30px;
+}
+header .navigation nav ul li a {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#introduction {
+  height: 100vh;
+  background: url(../image/bg_3.jpg.webp) no-repeat;
+  background-size: cover;
+}
+#introduction .content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#introduction .content h1 {
+  font-size: 75px;
+  line-height: 1.34;
+  color: #fff;
+}
+#introduction .content p {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.45;
+  font-size: 19px;
+}
+#introduction .content a {
+  border: 2px solid #fff;
+  padding: 13px 40px;
+  color: #fff;
+  margin-top: 30px;
+}
+#introduction .content a:hover {
+  background-color: #fff;
+  color: black;
+}
+
+#middle-part {
+  margin-top: 90px;
+}
+#middle-part .complex {
+  display: flex;
+  justify-content: space-between;
+}
+#middle-part .complex .story {
+  width: 430px;
+  height: 318px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#middle-part .complex .story h5 {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  color: #d4d4d4;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+#middle-part .complex .story h3 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
+#middle-part .complex .story p {
+  font-family: "Raleway", sans-serif;
+  background: #fff;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #b8b8b8;
+}
+#middle-part .complex .story a {
+  border: 2px solid #ccc;
+  color: #999;
+  padding: 13px 40px;
+  font-family: "Playfair Display", serif;
+  width: 53%;
+}
+#middle-part .complex .story a:hover {
+  background-color: orange;
+  color: #fff;
+  border: 2px solid orange;
+}
+
+img {
+  width: 450px;
+  height: 300px;
+}
+
+#eat {
+  margin-top: 50px;
+  width: 100%;
+  background-color: #f8f9fa;
+}
+#eat .offers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#eat .offers h4 {
+  margin-top: 50px;
+  color: #d4d4d4;
+  font-weight: 300;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+}
+#eat .offers h2 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.1;
+  color: #000;
+}
+#eat .offers p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #b8b8b8;
+}
+#eat .offers .slider {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 100%;
+  margin-bottom: 56px;
+}
+#eat .offers .slider .card {
+  width: 300px;
+  height: 500px;
+  background-color: #fff;
+}
+#eat .offers .slider .card img {
+  width: 300px;
+  height: 200px;
+  width: 100%;
+}
+#eat .offers .slider .card figcaption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#eat .offers .slider .card figcaption h6 {
+  color: #FDA403;
+  line-height: 1.45;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+#eat .offers .slider .card figcaption .abed {
+  line-height: 1.45;
+  font-weight: bold;
+  color: #000;
+  font-size: 1.5rem;
+}
+#eat .offers .slider .card figcaption p {
+  line-height: 1.6;
+  color: #b8b8b8;
+  text-align: center;
+}
+#eat .offers .slider .card figcaption a {
+  margin-top: 15px;
+  border: 1px solid #FDA403;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 12px;
+  cursor: pointer;
+  line-height: 1.5;
+  background-color: #FDA403;
+}/*# sourceMappingURL=style.css.map */
